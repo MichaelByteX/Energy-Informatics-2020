@@ -1,6 +1,6 @@
 # Comparison of Approaches for Intrusion Detection in Substations using the IEC 60870-5-104 Protocol
 
-> # Comparison of Approaches for Intrusion Detection in Substations using the IEC 60870-5-104 Protocol
+> **Comparison of Approaches for Intrusion Detection in Substations using the IEC 60870-5-104 Protocol**
 > Michael Egger, Günther Eibl and Dominik Engel
 > Energy Informatics (ENINF), 2020
 
