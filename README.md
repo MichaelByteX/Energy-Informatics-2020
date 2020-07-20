@@ -13,4 +13,4 @@ In this paper, we explore a neutral comparison of different methods to recognize
 
 ## Snort Ruleset
 This repository includes the local.rules as well as the protocol-scada.rules file used to evaluate the results in the presented paper with Snort.
-In order to use the rules, they have to be copied to the etc/snort folder. 
+In order to use the rules, they have to be copied to the etc/snort folder of your Snort installation.
