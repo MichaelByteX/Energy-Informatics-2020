@@ -4,9 +4,7 @@ Here are all data and materials of the following publication made publicly avail
 
 > **Comparison of Approaches for Intrusion Detection in Substations using the IEC 60870-5-104 Protocol**
 &nbsp;
-
 > Michael Egger, Günther Eibl and Dominik Engel 
-
 &nbsp;
 > Energy Informatics (ENINF), 2020
 
