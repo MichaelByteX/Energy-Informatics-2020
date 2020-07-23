@@ -20,26 +20,29 @@ This repository includes the local.rules as well as the protocol-scada.rules fil
 In order to use the rules, they have to be copied to the etc/snort folder of your Snort installation.
 
 ## Dataset
-The datasets are saved as csv-files with a ; as a delimiter between columns and are divided into 2 parts
+The data sets are divided into 2 parts and saved as csv-files with a ";" as a delimiter between columns:
 
 1.) Original data that you need, if you want to create your own features
 - csvDataOrigNormal.csv contains the original measurements of normal data
 The column names are described in the paper on pages 7 and 8
 Missing data are coded as NaN.
 - csvDataOrigAttacks.csv contains the original measurements of all the attack data
+
 In order to distinguish the attacks, the last column (called attack) contains the attack type coded as follows
 1	SynFlood
 2	Portscan Nmap
-3   Vulnerabilityscan Nessus
+3 Vulnerabilityscan Nessus
 4	Fuzzytest Fuzzy
 
-2.) Data consisting of the features that we created. You might prefer to use these data, if you want to test some new algorithms
+2.) Data consisting of the features that we created. You might prefer to use these data, if you want to test some new algorithms.
 These data are divided into a training set and a test set.
 Division into training and test is done for usage in a semi-supervised setting: so training data only contain normal packets (attack =0), test data contain all kinds of attacks coded as above and also normal traffic.
+
 Usage for unsupervised setting: put it all together.
 Usage for supervised: regroup it as you need it.
 
 "Well, that's it and keep on dancing" [1]
+
 Günther Eibl
 
 [1] Bingo Boys "How To Dance",  Billboard-Hot-100-Charts, begin of 90s
