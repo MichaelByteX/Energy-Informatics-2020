@@ -29,10 +29,11 @@ Missing data are coded as NaN.
 - csvDataOrigAttacks.csv contains the original measurements of all the attack data
 
 In order to distinguish the attacks, the last column (called attack) contains the attack type coded as follows
-1	SynFlood
-2	Portscan Nmap
-3 Vulnerabilityscan Nessus
-4	Fuzzytest Fuzzy
+
+1	SynFlood <br>
+2	Portscan Nmap <br>
+3 Vulnerabilityscan Nessus <br>
+4	Fuzzytest Fuzzy <br>
 
 2.) Data consisting of the features that we created. You might prefer to use these data, if you want to test some new algorithms.
 These data are divided into a training set and a test set.
